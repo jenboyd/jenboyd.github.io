@@ -1,0 +1,25 @@
+body {
+
+	font-family: helvetica, arial, sans-serif;
+	color: #444444;
+}
+
+img {
+	width: 70%;
+}
+
+nav a {
+	margin-right: 20px;
+	text-decoration: none; 
+}
+
+article {
+	text-align: center;
+}
+
+footer {
+	background-color: #eeeeee;
+	padding: 20px;
+	text-align: center;
+}
+
