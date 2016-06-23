@@ -1,0 +1,163 @@
+@import url(https://fonts.googleapis.com/css?family=Karma:300);
+@import url(https://fonts.googleapis.com/css?family=News+Cycle:400,700);
+@import url(https://fonts.googleapis.com/css?family=Satisfy);
+@import url(https://fonts.googleapis.com/css?family=Work+Sans:100);
+@import url(https://fonts.googleapis.com/css?family=Covered+By+Your+Grace);
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-weight: normal;
+}
+
+#wrapper{
+	max-width: 85%;
+	margin:0 auto;
+}
+
+body {
+	font-family: 'News Cycle', sans-serif;
+	color: #555555;
+	font-size: 16px;
+}
+
+header{
+	margin-bottom: 5em;
+}
+
+#logo h1 {
+	color: #555555;
+	text-align: center;
+	font-size: 3.6em;
+	text-align: center;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 100;
+	letter-spacing: .1em;
+	text-transform: lowercase;
+}
+
+#logo h2 {
+	color: #555555;
+	font-size: 1.6em;
+	text-align: center;
+	font-family: 'Covered By Your Grace', serif;
+}
+
+#logo {
+	float: center;
+	margin: 3em 0 3em 0;
+}
+
+.footernav a {
+	color: #EEEEEE;
+
+    float: center;
+    margin: 9em 0 0 0;
+    text-decoration: none;
+    padding-right: 1em;
+}
+
+.more a {
+	text-align: center;
+	text-transform: 
+}
+
+article {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: .5em;
+    margin-bottom: 4em;
+    float: center;
+    width: 50%;
+}
+
+article h3 {
+	font-size: 1.2em;
+	line-height: 1em;
+	font-weight: 700;
+	padding-top: .25em;
+}
+
+article p{
+	padding: 1.5px;
+	font-size: 1em;
+	font-weight: 400;
+}
+
+footer {
+	color: #EEEEEE;
+	background-color: #555555;
+	padding: 1.5em;
+	text-align: center;
+	text-decoration: none;
+	font-weight: 400;
+}
+
+#mainimage{
+	max-width: 100%; 
+	height: auto;
+}
+
+.teaserimage {
+	max-width: 100%;
+	max-height: auto;
+	margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 0px;
+    float: center;
+}
+
+.teaserimage:hover {
+    opacity: 0.5;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+@media only screen and (max-width:1150px) {
+	
+	article {
+		width: 60%;
+	}
+}
+
+@media only screen and (max-width:970px) {
+	
+	article {
+		width: 70%;
+	}
+
+	body {
+		font-size: 14px;
+	}
+}
+
+@media only screen and (max-width:600px) {
+	
+	#wrapper {
+		max-width: 100%;
+	}
+
+	#logo h1 {
+	font-size: 3em;
+	}
+}
+
+@media only screen and (max-width:400px) {
+	
+	article {
+		width: 85%;
+	}
+
+	header {
+		margin: 1em 0 3em 0;
+	}
+}
+
