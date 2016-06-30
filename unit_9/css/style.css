@@ -1,0 +1,259 @@
+
+@import url(https://fonts.googleapis.com/css?family=News+Cycle:400,700);
+@import url(https://fonts.googleapis.com/css?family=Work+Sans:400,300,700,100);
+@import url(https://fonts.googleapis.com/css?family=Covered+By+Your+Grace);
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-weight: normal;
+}
+
+#wrapper{
+	width: 85%;
+	margin:0 auto;
+}
+
+body {
+	color: #555555;
+	font-size: 16px;
+}
+
+#logo h1 {
+	color: #555555;
+	text-align: center;
+	font-size: 3.9em;
+	text-align: center;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 100;
+	letter-spacing: .1em;
+}
+
+#logo h2 {
+	color: #555555;
+	font-size: 1.6em;
+	text-align: center;
+	font-family: 'Covered By Your Grace', serif;
+}
+
+#logo {
+	float: center;
+	margin: 3em 0 5em 0;
+}
+
+.more {
+	text-align: center;
+	margin: 3em 0;
+}
+
+.more a {
+	text-decoration: none;
+	color: #555555;
+	font-family: 'News Cycle', sans-serif;
+	font-weight: 400;
+}
+
+article {
+    margin-bottom: 5em;
+    width: 60%;
+   	margin-right: 20%;
+   	margin-left: 20%;
+}
+
+article h3 {
+	font-family: 'News Cycle', sans-serif;
+	font-size: 1.4em;
+	font-weight: 400;
+}
+
+article p{
+	font-family: 'News Cycle', sans-serif;
+	font-weight: 400;
+	font-size: 1em;
+	padding-bottom: 2em;
+}
+
+.clearfix:after {
+	visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+}
+
+
+/*.about {
+	float: left;
+	background-color: #F0DCD2;
+	padding-top: 2%;
+	padding-bottom: 10%;
+	padding-right: 2%;
+	padding-left: 2%;
+	width: 20%;
+}
+
+.about h3 {
+	font-family: 'News Cycle', sans-serif;
+	font-weight: 700;
+	font-size: 1.2em;
+	line-height: 2em;
+	text-align: center;
+}
+
+.about p{
+	font-family: 'News Cycle', sans-serif;
+	font-weight: 400;
+	font-size: 1em;
+}
+*/
+footer {
+	background-color: #555555;
+	padding: 3em;
+	text-decoration: none;
+	float: center;
+}
+
+footer h3{
+	font-family: 'Covered By Your Grace', serif;
+	font-size: 1.3em; `
+	margin: 0 0 .5em 0;
+	text-align: center;
+	color: white;
+}
+
+aside {
+	float: left;
+	width: 20%;
+}
+
+aside h4{
+	font-family: 'Covered By Your Grace', serif;
+	font-weight: 400;
+	font-size: 2em;
+	margin-bottom: .1em;
+}
+
+header {
+	font-family: 'News Cycle', sans-serif;
+	font-weight: 400;
+	font-size: 1em;
+	float: right;
+	width: 65%;
+	margin-top: 5em;
+	margin-right: 10%;
+	margin-left: 25%;
+	margin-bottom: 2em;
+	text-align:left;
+}
+
+header h4 {
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 100;
+	letter-spacing: .1em;
+	font-size: 3em;
+}
+
+
+aside ul {
+	font-family: 'News Cycle', sans-serif;
+	font-weight: 400;
+	font-size: 1em;
+}
+
+li{
+	padding: 1em 0;
+}
+
+#mainimage{
+	max-width: 100%; 
+	height: auto;
+	margin-bottom: 4em;
+}
+
+.teaserimage {
+	max-width: 100%;
+	max-height: auto;
+}
+
+.teaserimage:hover {
+    opacity: 0.5;
+}
+
+.more a:hover {
+	color: #76808F;
+}
+
+/*#about {
+	width: 100%;
+	height: auto;
+	padding-bottom: 2em;
+}*/
+
+.date {
+	margin-top: .5em;
+	font-size: 1em;
+	font-family: 'News Cycle', sans-serif;
+	font-weight: 700;
+	color: #D9994E;
+}
+
+
+@media only screen and (max-width:1150px) {
+	
+	#wrapper {
+ 		 width: 90%;
+ 	}
+
+	article {
+		float: none;
+		margin: 3.5em auto;
+		width: 80%;
+	}
+}
+
+@media only screen and (max-width:900px) {
+	
+	#logo h1 {
+	font-size: 2.8em;
+	}
+
+	#logo h2 {
+	font-size: 1.7em;
+	}
+
+	#wrapper {
+ 		 width: 100%;
+ 	}
+
+	article {
+		float: none;
+		margin: 3.5em auto;
+		width: 70%;
+	}
+}
+
+@media only screen and (max-width:600px) {
+
+	body{
+		font-size: 14px;
+	}
+	#logo h1 {
+	font-size: 2.2em;
+	}
+
+	#logo h2 {
+	font-size: 1.6em;
+	}
+
+	#wrapper {
+ 		 width: 100%;
+ 	}
+
+ 	article {
+ 		margin: 2em auto;
+ 		width: 85%;
+ 	}
+}
+
+
